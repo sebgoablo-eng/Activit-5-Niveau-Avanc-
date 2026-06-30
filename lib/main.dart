@@ -4,9 +4,7 @@ void main() {
   runApp(const MonApplication());
 }
 
-// ============================================================
 // MODÈLE
-// ============================================================
 class Etudiant {
   final String nom;
   final double moyenne;
@@ -14,9 +12,7 @@ class Etudiant {
   const Etudiant({required this.nom, required this.moyenne});
 }
 
-// ============================================================
 // WIDGET RACINE
-// ============================================================
 class MonApplication extends StatelessWidget {
   const MonApplication({super.key});
 
@@ -31,9 +27,7 @@ class MonApplication extends StatelessWidget {
   }
 }
 
-// ============================================================
 // PAGE D'ACCUEIL
-// ============================================================
 class PageAccueil extends StatelessWidget {
   const PageAccueil({super.key});
 
@@ -134,9 +128,7 @@ class PageAccueil extends StatelessWidget {
   }
 }
 
-// ============================================================
 // PAGE DÉTAIL
-// ============================================================
 class DetailPage extends StatelessWidget {
   const DetailPage({super.key});
 
